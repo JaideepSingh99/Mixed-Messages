@@ -3,7 +3,7 @@ const randNum = (num) => {
     return Math.floor(Math.random() * num);
 }
 
-// 
+// Generate Random messages.
 const randMessage = () => {
     const astroSign = ['Air sign', 'Water sign', 'Fire sign', 'Earth sign'];
     const react = ['Congrats', 'Sucks to be you', 'Meh', 'Hehe'];
